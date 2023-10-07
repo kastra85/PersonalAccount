@@ -1,0 +1,1 @@
+[![Build status](https://ci.appveyor.com/api/projects/status/g9k595y110a2b6rl?svg=true)](https://ci.appveyor.com/project/kastra85/personalaccount)
