@@ -9,8 +9,8 @@ branches:
 build: off # будем использовать свой скрипт сборки
 
 install:
-  - java -jar ./artifacts/app-bank.jar -P:profile=test     -port=9999 &
+  - java -jar ./artifacts/app-ibank.jar -P:profile=test     -port=9999 &
 
 build_script:
   - chmod +x gradlew
-  - ./gradlew test -Selenide.headless=true --info
+  - ./gradlew test --info -Dselenide.headless=true
